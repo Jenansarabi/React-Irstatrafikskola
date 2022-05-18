@@ -1,0 +1,186 @@
+
+.priser {
+    margin:  auto;
+    width: 100%;
+    padding: 0 0 0 0;
+    background: url('./images/grren.jpg') no-repeat center center/cover;
+
+
+
+}
+
+.priser .container {
+    background-color: rgba(255, 255, 255, 0.438);
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.priser h2 {
+    font-size: 3rem;
+}
+.priser .img {
+    display: flex;
+}
+.priser .col-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem;
+
+}
+
+
+
+
+.priser button {
+    margin-top: 1rem;
+}
+
+@media screen and (max-width:940px) {
+   
+    .priser .container {
+        grid-template-columns: 1fr;
+
+    }
+
+    .priser .container {
+        width: 100%;
+        
+    }
+
+    .priser .container img {
+        padding: 0rem;
+        width: 90vw;
+    }
+
+    .priser .container .col-2 {
+        padding: 0;
+    }
+
+    .priser button {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width:1024px) {
+   
+.priser {
+    width: 100%;
+}
+
+    .priser .container {
+        grid-template-columns: 1fr;
+
+        
+    }
+
+    .priser .container {
+        width: 100%;
+        
+    }
+
+    .priser .container img {
+        padding: 0rem;
+        width: 90vw;
+    }
+
+    .priser .container .col-2 {
+        padding: 0;
+    }
+
+    .priser button {
+        margin-bottom: 1rem;
+    }
+}
+
+
+#index1, #index2 {
+    width: 300px;
+    background: rgba(224, 225, 225, 0.979);
+    margin-top:0.5rem;
+    padding:1rem;
+}
+
+.left-side {
+    color: rgb(1, 17, 15);
+    font-weight: italic;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.right-side {
+    float: right;
+}
+.priser .Container {
+    width: 1240px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.priser h2 {
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 600;
+
+
+}
+
+.priser .col-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    
+
+
+}
+
+/*
+.priser .col-2 p:first-of-type {
+    margin: 2rem 0;
+}*/
+
+.priser .col-2  {
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.priser button {
+    margin-top: 1rem;
+}
+
+@media screen and (max-width:940px) {
+    .priser .Container {
+        grid-template-columns: 1fr;
+    }
+
+    .priser .Container {
+        width: 100%;
+    }
+
+  
+    .priser .Container .col-2 {
+        padding: 0;
+    }
+
+    .priser button {
+        margin-bottom: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+

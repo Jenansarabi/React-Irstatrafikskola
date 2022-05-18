@@ -1,0 +1,105 @@
+
+.hem {
+    margin:  auto;
+    width: 100%;
+    padding: 6rem 0 0 0;
+    background: url('./images/grren.jpg') no-repeat center center/cover;
+
+
+
+}
+
+.hem .container {
+    background-color: rgba(255, 255, 255, 0.438);
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.hem h2 {
+    font-size: 3rem;
+}
+.hem .img {
+    display: flex;
+    justify-content:center;
+}
+.hem .col-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.hem .col-2  {
+    margin: 2rem;
+}
+
+.hem .col-2  {
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.hem button {
+    margin-top: 1rem;
+}
+
+@media screen and (max-width:940px) {
+   
+    .hem .container {
+        grid-template-columns: 1fr;
+
+    }
+
+    .hem .container {
+        width: 100%;
+        
+    }
+
+    .hem .container img {
+        padding: 0rem;
+        width: 90vw;
+    }
+
+    .hem .container .col-2 {
+        padding: 0;
+    }
+
+    .hem button {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width:1024px) {
+   
+.hem {
+    width: 100%;
+}
+
+    .hem .container {
+        grid-template-columns: 1fr;
+
+        
+    }
+
+    .hem .container {
+        width: 100%;
+        
+    }
+
+    .hem .container img {
+        padding: 0rem;
+        width: 90vw;
+    }
+
+    .hem .container .col-2 {
+        padding: 0;
+    }
+
+    .hem button {
+        margin-bottom: 1rem;
+    }
+}

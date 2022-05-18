@@ -1,0 +1,80 @@
+
+    
+  .text{
+    display: inline;
+
+  }
+    
+  .read-or-hide{
+    color: rgb(74, 94, 91);
+    cursor: pointer;
+  }
+
+  
+.utbildning {
+    margin: auto;
+
+}
+
+
+ .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    padding:2rem 2rem;
+    background: linear-gradient(to right, #e0f1ee 0%,  #027e6cc8 100%, #027e6cc8 0%);
+
+}
+
+@media screen and (max-width:940px) {
+   
+    .utbildning .content {
+        grid-template-columns: 1fr;
+    }
+
+    .utbildning .content {
+        width: 100%;
+        
+    }
+
+    .utbildning .content img {
+        padding: 0rem;
+        width: 90vw;
+    }
+
+    .utbildning .content .text {
+        padding: 0;
+    }
+
+    .utbildning button {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width:1024px) {
+   
+    .utbildning .content {
+        grid-template-columns: 1fr;
+    }
+
+    .utbildning .content {
+        width: 100%;
+        
+    }
+
+    .utbildning .content img {
+        padding: 0rem;
+        width: 90vw;
+    }
+
+    .utbildning .content .text {
+        padding: 0;
+    }
+
+    .utbildning button {
+        margin-bottom: 1rem;
+    }
+}
+
+
