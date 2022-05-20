@@ -2,7 +2,7 @@
 .priser {
     margin:  auto;
     width: 100%;
-    padding: 0 0 0 0;
+    margin: 0 0 0 0;
     background: url('./images/grren.jpg') no-repeat center center/cover;
 
 
@@ -37,9 +37,7 @@
 
 
 
-.priser button {
-    margin-top: 1rem;
-}
+
 
 @media screen and (max-width:940px) {
    
@@ -62,9 +60,7 @@
         padding: 0;
     }
 
-    .priser button {
-        margin-bottom: 1rem;
-    }
+ 
 }
 
 @media screen and (max-width:1024px) {
@@ -93,15 +89,13 @@
         padding: 0;
     }
 
-    .priser button {
-        margin-bottom: 1rem;
-    }
+    
 }
 
 
 #index1, #index2 {
     width: 300px;
-    background: rgba(224, 225, 225, 0.979);
+    background: rgba(11, 40, 40, 0.219);
     margin-top:0.5rem;
     padding:1rem;
 }
@@ -115,6 +109,7 @@
 
 .right-side {
     float: right;
+    
 }
 .priser .Container {
     width: 1240px;
@@ -136,7 +131,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 3rem;
+    padding: 1rem;
     
 
 
@@ -151,11 +146,9 @@
     font-size: 1.8rem;
     font-style: italic;
     font-weight: 600;
+    margin: 0 0 0 0;
 }
 
-.priser button {
-    margin-top: 1rem;
-}
 
 @media screen and (max-width:940px) {
     .priser .Container {
@@ -171,9 +164,21 @@
         padding: 0;
     }
 
-    .priser button {
-        margin-bottom: 1rem;
-    }
+  
+   /* 
+#index1, #index2 {
+    display: flex;
+}
+ .left-side {
+    
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 40px;
+    padding: 1rem;
+    width: 50%;
+    font-size: 1rem;
+}*/
+
 }
 
 

@@ -1,4 +1,13 @@
+.box {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    padding:2rem 2rem;
+    background: linear-gradient(to right, #e0f1ee 0%,  #027e6cc8 100%, #027e6cc8 0%);
 
+}
     
   .text{
     display: inline;

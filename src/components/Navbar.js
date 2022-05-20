@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import { Link } from 'react-scroll'
+
 import { FaBars, FaTimes } from 'react-icons/fa'
 import logo from './images/logo.png'
 
@@ -14,9 +16,8 @@ const Navbar = () => {
     return (
         <div className='header'>
             <nav className='navbar'>
-                <a href='/' className='logo'>
-                    <img src={logo} alt='logo' />
-                </a>
+            <img src={logo} alt='logo' />
+
                 <div className='hamburger' onClick={handleClick}>
                     {click ? (<FaTimes size={30} style={{ color: '#ffffff' }} />)
                         : (<FaBars size={30} style={{ color: '#ffffff' }} />)}
@@ -25,24 +26,27 @@ const Navbar = () => {
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                    
                     <li className='nav-item'>
-                        <a href='#hem' onClick={closeMenu}>Hem</a>
+                    <Link to="hem" spy={true} smooth={true} offset={-90} duration={500} onClick={closeMenu}>Hem</Link>
                     </li>
                   
                     <li className='nav-item'>
-                        <a href='#priser' onClick={closeMenu}>Priser</a>
+                    <Link to="priser" spy={true} smooth={true} offset={-90} duration={500} onClick={closeMenu}>Priser</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#utbildning' onClick={closeMenu}>Utbildning</a>
+                        <Link to='utbildning' spy={true} smooth={true} offset={-90} duration={500} onClick={closeMenu}>Utbildning</Link>
+
                     </li>
 
                     <li className='nav-item'>
-                        <a href='#link' onClick={closeMenu}>Länker/Tips</a>
+                    <Link to='kontakt' spy={true} smooth={true} offset={-90} duration={500} onClick={closeMenu}>Kontakta Oss</Link>
+                    </li>
+                   
+                    <li className='nav-item'>
+                    <Link to='link' spy={true} smooth={true} offset={-90} duration={500} onClick={closeMenu}>Länk-Tips</Link>
                     </li>
                    
                   
-                    <li className='nav-item'>
-                        <a href='#kontakt' onClick={closeMenu}>Kontakta Oss</a>
-                    </li>
+               
                 </ul>
             </nav>
         </div>

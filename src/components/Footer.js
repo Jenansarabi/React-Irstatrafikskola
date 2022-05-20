@@ -1,5 +1,8 @@
 import React from 'react'
+import { Link } from 'react-scroll'
+
 import './Footer.css'
+
 
 
 const Footer = () => {
@@ -9,20 +12,23 @@ const Footer = () => {
         <div className='container'>
         <div className='col-1'>
                <h2 id='link'>
-                Länkar
-                  Transportsstyrelsen
+                Länkar/Tips
                 
               </h2>
-              <a href=' https://www.transportstyrelsen.se/korkort' > <h4 className='web'>Transportsstyrelsen</h4></a>
+              <a href=' https://www.transportstyrelsen.se/korkort' ><button  className='web'><h4>Transportsstyrelsen</h4></button></a>
             
-              <a href='    https://www.korkort.nu/handledare/till-dig-som-vill-bli-handledare' > <h4 className='web'>Handledarsajten   https://www.korkort.nu/handledare/till-dig-som-vill-bli-handledare'</h4></a>
+              <a href='  https://www.korkort.nu/handledare/till-dig-som-vill-bli-handledare' > <button className='web'> <h4 >   Handledarsajten   </h4></button></a>
           </div>
             <ul>
-                <li className='nav-item'><a href='/'>Hem</a></li>
-                <li className='nav-item'><a href='#priser'>Priser</a></li>
-                <li className='nav-item'><a href='#utbildning'>Utbildning</a></li>
-                <li className='nav-item'><a href='#kontakt'>Kontakta Oss</a></li>
 
+                
+            <li className='nav-item'> <Link to="hem" spy={true} smooth={true} offset={-90} duration={500} >Hem</Link></li>
+            <li className='nav-item'> <Link to="priser" spy={true} smooth={true} offset={-90} duration={500} >Priser</Link></li>
+            <li className='nav-item'>  <Link to="utbildning" spy={true} smooth={true} offset={-90} duration={500} >Utbildning</Link></li>
+            <li className='nav-item'> <Link to="kontakt" spy={true} smooth={true} offset={-90} duration={500} >Kontakta Oss</Link></li>
+            
+                
+                
 
             </ul>
          

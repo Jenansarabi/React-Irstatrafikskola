@@ -10,15 +10,24 @@
     background: -webkit-linear-gradient(#032e27,rgb(5, 72, 69),rgb(2, 14, 8));
 
 }
+.nav  {
+    padding:0 16px;
+}
 .header .logo {
     background-size: contain;
     display: flex;
     justify-content: center;
-    height:100%;
-    width:230px;
+    height: 100%;
+    width:175px;
+
 
     
 }
+.header .logo:hover {
+    background-color: #fff;
+}
+
+
 .header .navbar {
     display: flex;
     justify-content: space-between;
@@ -89,6 +98,7 @@
         z-index: 999;
         text-align: center;
         transition: .3s;
+        margin-top:0.6rem;
     }
 
     .nav-menu.active {
