@@ -26,7 +26,7 @@ const Priser = () => {
                 </div>
 
                 <div id="index1">
-                    <span className="left-side">10 körlektioner </span>
+                    <span className="left-side"><p>10 körlektioner</p> </span>
                     <span className="right-side"> 4800</span>
                 </div>
                 <div id="index1">

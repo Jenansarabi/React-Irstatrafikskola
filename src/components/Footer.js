@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-
 import './Footer.css'
 
 
@@ -21,12 +20,12 @@ const Footer = () => {
           </div>
             <ul>
 
-                
-            <li className='nav-item'> <Link to="hem" spy={true} smooth={true} offset={-90} duration={500} >Hem</Link></li>
-            <li className='nav-item'> <Link to="priser" spy={true} smooth={true} offset={-90} duration={500} >Priser</Link></li>
-            <li className='nav-item'>  <Link to="utbildning" spy={true} smooth={true} offset={-90} duration={500} >Utbildning</Link></li>
-            <li className='nav-item'> <Link to="kontakt" spy={true} smooth={true} offset={-90} duration={500} >Kontakta Oss</Link></li>
-            
+                  
+              <li className='nav-item'> <Link to="hem" spy={true} smooth={true} offset={-90} duration={500} >Hem</Link></li>
+              <li className='nav-item'> <Link to="priser" spy={true} smooth={true} offset={-90} duration={500} >Priser</Link></li>
+              <li className='nav-item'>  <Link to="utbildning" spy={true} smooth={true} offset={-90} duration={500} >Utbildning</Link></li>
+              <li className='nav-item'> <Link to="kontakt" spy={true} smooth={true} offset={-90} duration={500} >Kontakta Oss</Link></li>
+              
                 
                 
 
@@ -34,6 +33,7 @@ const Footer = () => {
          
             <div className='bottom'>
                 <span className='line'></span>
+                
                 <p>2022 Execute, Inc. All rights reserved</p>
 
             </div>

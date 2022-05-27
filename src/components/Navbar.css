@@ -10,7 +10,7 @@
     background: -webkit-linear-gradient(#032e27,rgb(5, 72, 69),rgb(2, 14, 8));
 
 }
-.nav  {
+.navbar  {
     padding:0 16px;
 }
 .header .logo {
@@ -18,7 +18,7 @@
     display: flex;
     justify-content: center;
     height: 100%;
-    width:175px;
+    width: 200px;
 
 
     
@@ -84,8 +84,7 @@
         display: block;
         height:50px;
         margin-bottom: 50px;
-        max-width:300px;
-        width:300px;
+        min-width:150px;
     }
     .nav-menu {
         position: fixed;

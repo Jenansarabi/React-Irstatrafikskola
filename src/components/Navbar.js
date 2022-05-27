@@ -16,7 +16,10 @@ const Navbar = () => {
     return (
         <div className='header'>
             <nav className='navbar'>
-            <img src={logo} alt='logo' />
+                <div className='logo'>
+                <img src={logo} alt='logo' />
+
+                </div>
 
                 <div className='hamburger' onClick={handleClick}>
                     {click ? (<FaTimes size={30} style={{ color: '#ffffff' }} />)
@@ -26,7 +29,7 @@ const Navbar = () => {
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                    
                     <li className='nav-item'>
-                    <Link to="hem" spy={true} smooth={true} offset={-90} duration={500} onClick={closeMenu}>Hem</Link>
+                      <Link to="hem" spy={true} smooth={true} offset={-90} duration={500} onClick={closeMenu}>Hem</Link>
                     </li>
                   
                     <li className='nav-item'>
