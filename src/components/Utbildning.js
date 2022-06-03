@@ -15,7 +15,7 @@ return (
      <p className="text">
       {isReadMore ? text.slice(0, 1, 2) : text}
       <span onClick={toggleReadMore} className="read-or-hide">
-        {isReadMore ? "...read more" : " show less"}
+        {isReadMore ? "...Visa mer" : " Visa Mindre"}
       </span>
     	</p>
    </div>

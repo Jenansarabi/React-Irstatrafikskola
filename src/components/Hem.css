@@ -1,14 +1,15 @@
 
 .hem {
     width: 100%;
-    padding: 5rem 0 0 0 ;
     background: url('./images/grren.jpg') no-repeat center center/cover;
     margin: auto;
+    
 
 }
 
 .hem .container {
-    background-color: rgba(255, 255, 255, 0.397);
+    padding: 7.5rem 0 0 0 ;
+    background-color: rgba(255, 255, 255, 0.438);
     width: 100%;
     margin: auto;
     display: grid;
@@ -18,6 +19,7 @@
 
 .hem h2 {
     font-size: 2rem;
+    font-weight:400;
 }
 .hem .img {
     display: flex;
@@ -43,24 +45,45 @@
 }
 
 @media screen and (max-width:940px) {
-   
-     .hem {
-          max-width: 100%;
-          margin: auto;
-        }
+    
+    
+        .hem {
+            height: 100%;
+            max-width: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: table;
+             padding: 5rem 0 0 0 ;
 
-    .hem .container {
-        grid-template-columns: 1fr;
-        height: 100%;
+         
         
 
     }
 
-    .hem .container img {
-        padding: 0rem;
-        width: 90vh;
-    }
+    .hem .container {
+        grid-template-columns: 1fr;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0  ;
 
+       
+    }
+    .hem .container p {
+        font: size 0.5rem;
+        font-weight: 500;
+        font-style: italic;
+   }
+
+    .hem .container  {
+        padding: 0rem;
+        width: 100vh;
+    }
+   
     .hem .container .col-2 {
         padding: 0;
     }
@@ -89,6 +112,12 @@
         margin-top:0.6rem;
         
     }
+
+    .hem .container p {
+        font-size:1.5rem;
+        font-weight: 500;
+        font-style: italic;
+   }
 
     .hem .container img {
         padding: 0rem;

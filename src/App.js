@@ -15,10 +15,8 @@ function App() {
       <Hem/>
       <Priser/>
       <Utbildning/>
-
       <Kontakt />
       <Footer/>
-
 
     </div>
   );

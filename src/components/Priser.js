@@ -17,17 +17,17 @@ const Priser = () => {
                                             
                 <div id="index1">
                     <span className="left-side">1 körlektion</span>
-                    <span className="right-side"> 520Kr</span>
+                    <span className="right-side"> 540Kr</span>
                 </div>
 
                 <div id="index1">
                     <span className="left-side">5 körlektioner</span>
-                    <span className="right-side">2500</span>
+                    <span className="right-side">2600kr</span>
                 </div>
 
                 <div id="index1">
                     <span className="left-side"><p>10 körlektioner</p> </span>
-                    <span className="right-side"> 4800</span>
+                    <span className="right-side"> 5100kr</span>
                 </div>
                 <div id="index1">
                     <span className="left-side">Lån av bil vid prov inkl. uppvärmningslektion</span>

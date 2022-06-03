@@ -6,29 +6,31 @@ import './Kontakt.css'
 const Kontakt = () => {
   return (
     <div id='kontakt' className='kontakt'>
-        <h1>Kontakta Oss</h1>
-        <p>  VILL DU KOMMA I KONTAKT MED OSS?</p>       
-
+          <h3>  Vill du komma i kontak med oss?</h3>       
+          <h1>Kontakta Oss</h1>
         <div className='container'>
-              
+      
+          
             <div className='col-2'>
-                <div className=''>Address: Valesväg 1</div>
-                <div className=''> irstatrafikskola@hotmail.se</div>
-                <div className=''>Mobilnummer: 0739922168</div>
-
+              <span className='oss'>
+                
+               <h4>Address: Valesväg 1</h4>
+               <h4>irstatrafikskola@hotmail.se</h4>
+               <h4>Mobilnummer: 0739922168</h4>
+              </span>
+        
              </div>
                   
 
 
              <div className='col-1'>
-
                 <h4 >Vi har öppet</h4>
-                <span  >Måndag – Torsdag <i > 08:00 – 15:00</i></span>
-                <span>Fredag  08:00 – 13:00</span>
-              </div>
+                <p  >Måndag – Torsdag <i > 08:00 – 15:00</i></p>
+                <p>Fredag  08:00 – 13:00</p>
+            </div>
          </div>      
                   
-       </div>
+      </div>
         
   )
 }
